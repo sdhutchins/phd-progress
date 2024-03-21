@@ -9,8 +9,8 @@ import random
 plt.rcParams["font.family"] = "DejaVu Sans"
 
 # Constants
-CONTRACT_START = datetime.datetime(2020, 08, 21)
-CONTRACT_END = datetime.datetime(2025, 12, 01)
+CONTRACT_START = datetime.datetime(2020, 8, 21)
+CONTRACT_END = datetime.datetime(2025, 12, 1)
 mouse_size = 0.0
 
 # Function to calculate time progress
