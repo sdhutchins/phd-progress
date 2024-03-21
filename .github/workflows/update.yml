@@ -1,0 +1,38 @@
+name: Update PhD Progress
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run every day at midnight
+  workflow_dispatch: # This allows manual triggering
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Required Packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "ms.s.hutchins@gmail.com"
+          git config --global user.name "Shaurita D. Hutchins"
+
+      - name: Run Update Script
+        run: |
+          python update.py
+          git add README.md
+          git add progress.gif
+          now=$(date)
+          git commit -m "Auto-update progress on $now"
+          git push
