@@ -1,4 +1,4 @@
-![Progress](https://img.shields.io/badge/Progress-71.61%25-9bd469?style=flat-square)
+![Progress](https://img.shields.io/badge/Progress-71.66%25-9bd469?style=flat-square)
 ![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fpvtien96%2FPhD_Thesis_Tracker&label=Views&labelColor=%2337d67a&countColor=%23ff8a65&style=flat-square)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -10,13 +10,13 @@
 
 ## :calendar: My Progress
 
-- Today: 10/06/2024
+- Today: 11/06/2024
 - PhD Start Date: 24/08/2020
 - PhD End Date: 12/12/2025
 
-- Time Spent: 1387 days
-- Time Left: 550 days
-- Completion: <b>71.61%</b>
+- Time Spent: 1388 days
+- Time Left: 549 days
+- Completion: <b>71.66%</b>
 - Progress: [#######################################################################-----------------------------]
 
 ## 📈 Publications
