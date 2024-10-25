@@ -110,7 +110,7 @@ def animate_progress_with_items(spent_time, left_time, total_frames=100):
 
     # Create an initial mouse marker
     # mouse_marker = ax.text(0, 0, '🐭', fontsize=12, va='center', ha='right')
-    status = random.choice(['😉', '😳', '😅', '😎', '😊', '😖', '😥', '😂', '😃', '😦', '😕', '😒', '😔', '😞', '🥺', '🤡'])
+    status = random.choice(['😳', '😅', '😎', '😊', '😖', '😥', '😂', '😦', '😒', '😔', '🥺', '🤡'])
     mouse_marker = ax.text(0, 0, status, fontsize=12, va='center', ha='right')
 
     # Set the x-axis limits
@@ -129,7 +129,7 @@ def animate_progress_with_items(spent_time, left_time, total_frames=100):
     items = []
     for x_pos, y_pos in zip(item_positions, item_y_positions):
         # item_type = random.choice(['🍎', '🍌', '🍇', '🧀'])  # Fruits and fromage
-        item_type = random.choice(['😉', '😳', '😅', '😎', '😊', '😖', '😥', '😂', '😃', '😦', '😕', '😒', '😔', '😞', '🥺', '🤡'])  # Fruits and fromage
+        item_type = random.choice(['😳', '😅', '😎', '😊', '😖', '😥', '😂', '😦', '😒', '😔', '🥺', '🤡'])  # Fruits and fromage
         item = ax.text(x_pos, y_pos, item_type, fontsize=12, va='center', ha='center')
         items.append((item, x_pos))
 
