@@ -12,7 +12,7 @@
 
 - Today: 25/10/2024
 - PhD Start Date: 24/08/2020
-- PhD End Date: 12/12/2025
+- PhD End Date: 05/01/2026
 
 - Time Spent: 1524 days
 - Time Left: 413 days

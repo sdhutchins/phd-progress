@@ -10,7 +10,7 @@ plt.rcParams["font.family"] = "DejaVu Sans"
 
 # Constants
 CONTRACT_START = datetime.datetime(2020, 8, 24)
-CONTRACT_END = datetime.datetime(2026, 5, 01)
+CONTRACT_END = datetime.datetime(2026, 5, 1)
 mouse_size = 0.0
 
 # Function to calculate time progress
