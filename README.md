@@ -21,9 +21,11 @@
 
 ## 📈 Publications
 
+- In progress...
+
 ## Presentations
 
-## Workshops Attended
+- ASHG 2026 Poster Presentation
 
 ## Thanks
 

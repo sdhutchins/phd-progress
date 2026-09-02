@@ -10,7 +10,7 @@ plt.rcParams["font.family"] = "DejaVu Sans"
 
 # Constants
 CONTRACT_START = datetime.datetime(2020, 8, 24)
-CONTRACT_END = datetime.datetime(2026, 9, 1)
+CONTRACT_END = datetime.datetime(2027, 2, 1)
 mouse_size = 0.0
 
 # Function to calculate time progress
@@ -134,7 +134,10 @@ def animate_progress_with_items(spent_time, left_time, total_frames=100):
         items.append((item, x_pos))
 
     # Create the animation
-    animation = FuncAnimation(fig, update_animation, fargs=(total_frames, bar, mouse_marker, items, spent_time / (spent_time + left_time), title_text),
+    animation = FuncAnimation(fig, update_animation, fargs=(total_frames, bar,
+                                                            mouse_marker, items, 
+                                                            spent_time / (spent_time + left_time), 
+                                                            title_text),
                               frames=range(total_frames), interval=50)
 
     # Save the animation to a GIF file
